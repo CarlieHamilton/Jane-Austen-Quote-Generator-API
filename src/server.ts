@@ -10,11 +10,12 @@ const app = express();
 import { quotesRouter } from './routes/quoteRoutes';
 
 app.use(cors());
+app.use(express.json());
 
 // Define routes
-app.get('/', (_, res) => {
-  res.status(200).send()
-})
+// app.get('/', (_, res) => {
+//   res.status(200).send()
+// })
 app.use('/', quotesRouter);
 
 // Listen to the server!!!
