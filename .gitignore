@@ -1,3 +1,6 @@
+# Stuff I want ignored!
+*build
+
 # Logs
 logs
 *.log
