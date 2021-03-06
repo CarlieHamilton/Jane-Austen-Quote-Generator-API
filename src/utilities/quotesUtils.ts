@@ -6,6 +6,11 @@ export const returnRandomQuote = () => {
     return quote;
 }
 
+export const returnRandomQuoteFromBook = (bookTitle: string) => {
+    const quote = randomQuote(bookTitle);
+    return quote
+}
+
 // function that returns a random book title
 const randomBook = () => {
     const bookTitles = Object.keys(data);

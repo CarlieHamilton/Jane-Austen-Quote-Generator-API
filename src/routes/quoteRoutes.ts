@@ -1,6 +1,9 @@
 import express from 'express';
-import { getRandomQuote } from '../controllers/quotesController';
+import {
+    getRandomQuote, getRandomQuoteFromBook
+} from '../controllers/quotesController';
 
 export const quotesRouter = express.Router();
 
 quotesRouter.get('/random-quote', getRandomQuote);
+quotesRouter.get('/random-quote-from-book', getRandomQuoteFromBook);
