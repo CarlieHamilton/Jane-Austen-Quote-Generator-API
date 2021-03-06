@@ -1,1 +1,1 @@
-# Jane-Austen-Quote-Generator-API
+# Jane Austen Quote Generator API

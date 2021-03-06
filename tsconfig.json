@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+      "sourceMap": true,
+      "target": "es2017",
+      "outDir": "./build",
+      "baseUrl": "./src",
+      "esModuleInterop": true,
+      "allowSyntheticDefaultImports": true,
+      "moduleResolution": "node",
+    },
+    "include": [
+      "src/**/*.ts", "src/server.ts"
+    ],
+    "exclude": [
+      "node_modules"
+    ]
+  }
