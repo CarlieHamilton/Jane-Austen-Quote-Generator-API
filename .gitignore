@@ -1,5 +1,6 @@
 # Stuff I want ignored!
 *build
+*rest
 
 # Logs
 logs
