@@ -1,8 +1,8 @@
 import { Request, Response, NextFunction } from 'express';
-import { randomQuote } from '../utilities/quotesUtils';
+import { returnRandomQuote } from '../utilities/quotesUtils';
 
 export const getRandomQuote = (request: Request, response: Response) => {
-    const quote = randomQuote();
+    const quote = returnRandomQuote();
     if (quote != null) {
         response.status(200).json({randomQuote: quote});
     } else {
