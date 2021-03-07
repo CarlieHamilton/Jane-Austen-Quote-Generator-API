@@ -28,3 +28,6 @@ Content-Type: application/json
 - Install the dependencies with `npm i` -- make sure you are in the route directory.
 - To run the server in development mode, run the command `npm run dev`
 - You should now be able to call your server locally. The local default port used is `3000`
+
+### Credits
+- Quotes from [Goodreads](https://www.goodreads.com/author/quotes/1265.Jane_Austen)
