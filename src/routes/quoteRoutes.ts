@@ -6,4 +6,4 @@ import {
 export const quotesRouter = express.Router();
 
 quotesRouter.get('/random-quote', getRandomQuote);
-quotesRouter.get('/random-quote-from-book', getRandomQuoteFromBook);
+quotesRouter.post('/random-quote-from-book', getRandomQuoteFromBook);
